@@ -1,0 +1,274 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+/* header */
+/* nav */
+header{
+    background-color: black;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+}
+.logo a ol{
+    width: 0;
+    list-style: none;
+}
+.logo a ol li i{
+    font-size: 40px;
+}
+.logo a ul{
+    list-style: none;
+}
+.logo a ul li h1{
+    margin: 0;
+}
+.logo a ul li p{
+    margin: 0;
+}
+/* menu */
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin: 0 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav_heart{
+    background-color: black;
+    border: 1px solid gray;
+}
+.nav_heart a i{
+    color: white;
+}
+.che_view{
+    border: 1px solid gray;
+    background-color: grey;
+}
+.che_view a{
+    color: white;
+}
+.sigin{
+    background-color: lawngreen;
+}
+.menu ul .sigin a{
+    color: black
+}
+.login{
+    background-color: rgba(0, 0, 0, 1);
+}
+.login a{
+    color: white;
+}
+/* main  */
+/* main1 */
+main{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: green;
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+}
+/* window */
+.window{
+    display: flex;
+}
+.windows1{
+    width: 25%;
+    height: 80vh;
+}
+.windows1 div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.win1{
+    flex: 2;
+    background-color: l;
+}
+.win2{
+    flex: 1;
+    flex-basis: 40%;
+    background-color: lawngreen;
+}
+.win3{
+    background-color: lightblue;
+    flex: 1;
+    flex-basis: 40%;
+}
+.win4{
+    background-color: red;
+    flex: 1;
+    flex-basis: 40%;
+}
+.win5{
+    background-color: coral ;
+    flex: 1;
+    flex-basis: 40%;
+}
+.win{
+    flex-basis: 40%;
+    height: 25vh;
+}
+/*  */
+.windows2{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+.win6{
+    flex: 3;
+    flex-basis: 35%;
+}
+.win7{
+    flex: 1;
+    flex-basis: 29%;
+}
+.win8{
+    flex: 1;
+    flex-basis: 29%;
+}
+.win9{
+    flex: 3;
+    flex-basis: 35%;
+}
+.win10{
+    flex: 6;
+    flex-basis: 80%;
+}
+.win11{
+    flex: 1;
+    flex-basis: 10%;
+}
+.win{
+    margin: 5px 5px;
+    background-color: rebeccapurple;
+}
+/*  */
+.windows3{
+    
+    width: 25%;
+    height: 80vh;
+}
+.windows3 div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.win13{
+    flex: 1;
+}
+.win14{
+    flex: 1;
+}
+.win15{
+    flex: 1;
+}
+.win16{
+    flex: 1;
+}
+.win17{
+    flex: 2;
+}
+.win{
+    flex-basis: 40%;
+    height: 25vh;
+}
+.window div{
+    display: flex;
+}
+.gg{
+    padding: 5%;
+}
+.windows1{
+    width: 30%;
+}
+.windows2{
+    width: 30%;
+}
+.windows3{
+    width: 40%;
+    margin-left: 60px;
+}
+.win{
+    transition: .5s;
+}
+.win:hover{
+    transform: scale(1.05);
+}
+.win1{
+    background-color: #1c8ff8;
+}
+.win2{
+    background-color: #61b91a;
+}
+.win3{
+    background-color: #2cbae4;
+}
+.win4{
+    background-color: #dc3d2e;
+}
+.win5{
+    background-color: #e86133    ;
+}
+.win6{
+    background-color: #e86133;
+}
+.win7{
+    background-color: #1c8ff8;
+}
+.win8{
+    background-color: #61b91a;
+}
+.win9{
+    background-color: #2cbae4;
+}
+.win10{
+    background-color: #dc3d2e;
+}
+.win11{
+    background-color: #e86133    ;
+}
+.win13{
+    background-color: #e86133;
+}.win14{
+    background-color: #1c8ff8;
+}
+.win15{
+    background-color: #61b91a;
+}
+.win16{
+    background-color: #2cbae4;
+}
+.win17{
+    background-color: #dc3d2e;
+}
+.win5{
+    background-color: #e86133    ;
+}
+.win6{
+    background-color: #e86133;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
